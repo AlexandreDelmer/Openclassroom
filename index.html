@@ -8,28 +8,32 @@
     </head>
 
     <body>
-        <nav>
-            <img src="images/logo.png" title="logo ROBBIE LENS" alt="logo">
+        <header>
+            <nav>
+                <img src="images/logo.png" title="logo ROBBIE LENS" alt="logo">
 
-            <div>
-                <ul>
-                    <li>Accueil</li>
-                    <li>À propos</li>
-                    <li>Tarifs</li>
-                    <li>Portfolio</li>
-                </ul>
-            </div>
-        </nav>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="">Tarifs</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
         <main>
 
-            <section>
-                <h1>Robbie Lens Photographie</h1>
+            <section class="presentation">
 
-                <p>Où professionalisme s’allie avec passion. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion qui m’anime : capturer l’essence de chaque instant.</p>
+                <div>
+                    <h1>Robbie Lens Photographie</h1>
 
-                <a href="">UN PROJET ? ÉCRIVEZ MOI</a>
+                    <p>Où professionalisme s’allie avec passion. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion qui m’anime : capturer l’essence de chaque instant.</p>
 
+                    <a href="">UN PROJET ? ÉCRIVEZ MOI</a>
+                </div>
                 <img src="images/robbie-lens.png" alt="image de Robbie Lens" title="image de Robbie Lens">
             </section>
 
@@ -52,16 +56,27 @@
                     <h2>Parlons de votre projet</h2>
                     
                     <label for="name">Nom</label>
-                    <input name="name" id="name" placeholder="Indiquez votre nom">
+                    <input type ="text" name="name" id="name" placeholder="Indiquez votre nom">
 
                     <label for="email">Email</label>
-                    <input name="email" id="email"placeholder="Indiquez votre email">
+                    <input type="email" name="email" id="email"placeholder="Indiquez votre email">
 
-                    <label for="message">message</label>
+                    <label type="textarea" for="message">message</label>
                     <textarea></textarea>
+
+                    <button>Envoyer</button>
                 </form>
             </section>
         </main>
+
+        <footer>
+            <img src="images/logo.png" alt="logo Robbies Lens" title="Logo Robbie Lens">
+
+            <div>
+                <img src="images/instagram.png" alt="logo instagram" title="logo instagram">
+                <img src="images/twitter.png" alt="logo twitter" title="logo instagram">
+            </div>
+        </footer>
 
     </body>
 
