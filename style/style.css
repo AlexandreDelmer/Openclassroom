@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    font-family: ;
+    
 }
 
 header, footer{
@@ -19,7 +21,7 @@ nav ul{
 
 nav li{
     padding-left: 60px;
-    padding-right: 60px;
+    padding-right: 80px;
 }
 
 nav a{
@@ -29,6 +31,24 @@ nav a{
 
 .presentation{
     display: flex;
-    justify-content: center;
+    justify-content: ;
     background-color: #1F2039;
+}
+
+.info_presentation{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;                  
+    background-color: #8E86B5;
+    font-size: 17px;
+    height: 65px;
+    width: 314px;
+    padding: 5px;
+    text-decoration: none;
 }
