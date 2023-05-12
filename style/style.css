@@ -6,6 +6,11 @@ header, footer{
     padding: 20px 50px;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -17,8 +22,8 @@ nav ul{
     list-style-type: none;
 }
 
-nav li{
-    padding-left: 17em;
+nav li:not(:last-child) {
+  margin-right: 11rem;
 }
 
 nav a{
@@ -31,10 +36,24 @@ h1 {
     font-size: 3.4375rem;
 }
 
+.h2_white_background{
+    font-size: 2.19em;
+    color: #1F2039;
+}
+
+.h2_color_background{
+    font-size: 2.19em;
+    color: #A5B4FC;
+}
+
 .presentation{
     display: flex;
     justify-content: center;
     background-color: #1F2039;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
 }
 
 .info_presentation{
@@ -42,8 +61,14 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    width: 379px;
+    width: 25%;
+    margin-right: 10%;
+}
 
+.info_presentation h1,
+.info_presentation p,
+.info_presentation a{
+    margin-bottom: 10%;
 }
 
 .info_presentation p{
@@ -52,15 +77,48 @@ h1 {
     font-size: 1.25rem;
 }
 
+/* Retravailler le dégradé */
 .cta{
     align-items: center;
     text-align: center;
     color: white;
-    border-radius: 50px;                  
-    background-color: #8E86B5;
-    font-size: 1.062r5em;
+    border-radius: 50px; 
+    background-color: #8E86B5;                 
+    background: linear-gradient( to bottom, #8E86B5, 90%, #FFFFFF);
+    font-size: 1.0625rem;
     height: 2rem;
     line-height: 2rem;
     width: 14em;
     text-decoration: none;
+}
+
+.solo_border{
+    height: 5rem;
+    width: 5rem;
+    border-bottom: #A5B4FC solid 2px;
+    border-right: #A5B4FC solid 2px;
+    position: absolute;
+    bottom: 7%;
+    right: 16%;
+}
+
+.last_project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.img_last_project{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 1%;
+}
+
+.last_project h2,
+.img_last_project,
+.last_project a{
+    margin-bottom: 2%;
 }
