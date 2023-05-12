@@ -1,7 +1,5 @@
 *{
     margin: 0;
-    font-family: ;
-    
 }
 
 header, footer{
@@ -20,8 +18,7 @@ nav ul{
 }
 
 nav li{
-    padding-left: 60px;
-    padding-right: 80px;
+    padding-left: 17em;
 }
 
 nav a{
@@ -29,26 +26,41 @@ nav a{
     color: black;
 }
 
+h1 {
+    color: #A5B4FC;
+    font-size: 3.4375rem;
+}
+
 .presentation{
     display: flex;
-    justify-content: ;
+    justify-content: center;
     background-color: #1F2039;
 }
 
 .info_presentation{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 379px;
+
+}
+
+.info_presentation p{
+    word-wrap: break-word;
+    color: white;
+    font-size: 1.25rem;
 }
 
 .cta{
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
     border-radius: 50px;                  
     background-color: #8E86B5;
-    font-size: 17px;
-    height: 65px;
-    width: 314px;
-    padding: 5px;
+    font-size: 1.062r5em;
+    height: 2rem;
+    line-height: 2rem;
+    width: 14em;
     text-decoration: none;
 }
