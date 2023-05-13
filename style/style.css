@@ -79,12 +79,11 @@ h1 {
 
 /* Retravailler le dégradé */
 .cta{
-    align-items: center;
     text-align: center;
     color: white;
     border-radius: 50px; 
     background-color: #8E86B5;                 
-    background: linear-gradient( to bottom, #8E86B5, 90%, #FFFFFF);
+    background: linear-gradient(to bottom, #8E86B5, 90%, #FFFFFF);
     font-size: 1.0625rem;
     height: 2rem;
     line-height: 2rem;
@@ -126,6 +125,8 @@ h1 {
 .section_form{
     background-color: #1F2039;
     color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .form{
@@ -135,6 +136,47 @@ h1 {
     align-items: center;
 }
 
+.form_all{
+    width: 33%;
+}
+
 .form_information{
     display: flex;
+    justify-content: center;
 }
+
+.form_name input,
+.form_email input{
+    height: 100%;
+    width: 13rem;
+}
+
+.form_name{
+
+}
+
+.form_name label{
+    margin-bottom: 2rem;
+}
+
+.form_email{
+    margin-left: auto;
+}
+
+.form h2,
+.form_information,
+.form_message,
+.form textarea{
+    margin-bottom: 2rem;
+}
+
+.form_message{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_message textarea{
+    height: 10rem;
+    width: 100%;
+}
+
