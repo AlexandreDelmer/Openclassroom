@@ -122,3 +122,19 @@ h1 {
 .last_project a{
     margin-bottom: 2%;
 }
+
+.section_form{
+    background-color: #1F2039;
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_information{
+    display: flex;
+}

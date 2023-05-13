@@ -59,22 +59,33 @@
 
             </section>
 
-            <section>
-                <form>
+            <section class="section_form">
+
+                <form class="form">
                     <h2 class="h2_color_background">Parlons de votre projet</h2>
                     
-                    <label for="name">Nom</label>
-                    <input type ="text" name="name" id="name" placeholder="Indiquez votre nom">
+                    <div class="form_information">
 
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email"placeholder="Indiquez votre email">
+                        <div class="form_name">
+                            <label for="name">nom</label><br>
+                            <input type ="text" name="name" id="name" placeholder="Indiquez votre nom">
+                        </div>
+
+                        <div class="form_email">
+                            <label for="email">email</label><br>
+                            <input type="email" name="email" id="email"placeholder="Indiquez votre email">
+                        </div>
+                    
+                    </div>
 
                     <label type="textarea" for="message">message</label>
                     <textarea></textarea>
 
                     <button>Envoyer</button>
                 </form>
+
             </section>
+
         </main>
 
         <footer>
