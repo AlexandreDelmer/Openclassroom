@@ -123,60 +123,10 @@ h1 {
 }
 
 .section_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #1F2039;
     color: white;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.form_all{
-    width: 33%;
-}
-
-.form_information{
-    display: flex;
-    justify-content: center;
-}
-
-.form_name input,
-.form_email input{
-    height: 100%;
-    width: 13rem;
-}
-
-.form_name{
-
-}
-
-.form_name label{
-    margin-bottom: 2rem;
-}
-
-.form_email{
-    margin-left: auto;
-}
-
-.form h2,
-.form_information,
-.form_message,
-.form textarea{
-    margin-bottom: 2rem;
-}
-
-.form_message{
-    display: flex;
-    flex-direction: column;
-}
-
-.form_message textarea{
-    height: 10rem;
-    width: 100%;
 }
 
