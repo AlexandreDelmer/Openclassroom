@@ -1,6 +1,9 @@
 *{
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* Comment changer de police ?*/
 
 header, footer{
     padding: 20px 50px;
@@ -77,7 +80,8 @@ h1 {
     font-size: 1.25rem;
 }
 
-/* Retravailler le dégradé */
+/* Retravailler le dégradé 
+Pourquoi sur mon input le texte est pas centrer verticalement*/
 .cta{
     text-align: center;
     color: white;
@@ -130,6 +134,7 @@ h1 {
 
 .section_form h2 {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .form{
@@ -143,5 +148,42 @@ h1 {
 .information_form{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2rem;
 }
 
+.contact_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form label{
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.contact_form input{
+    height: 2.5rem;
+    width: 13.5rem;
+}
+
+.type_form{
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+
+form textarea{
+    width: auto;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.social_media img{
+    padding: 0 1rem;
+}

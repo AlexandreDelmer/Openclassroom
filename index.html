@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Accueil de ROBBIE LENS</title>
     <link href="style/style.css" rel="stylesheet">
+    <link href="polices/Michroma-Regular.ttf" rel="stylesheet" type="text/css">
     </head>
 
     <body>
@@ -16,7 +17,7 @@
                     <ul>
                         <li><a href="index.html">Accueil</a></li>
                         <li><a href="a-propos.html">À propos</a></li>
-                        <li><a href="">Tarifs</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                     </ul>
                 </div>
@@ -68,26 +69,23 @@
                         <div class="information_form">
 
                             <div class="contact_form">
-                                <label for="name">nom</label><br>
-                                <input type ="text" name="name" id="name" placeholder="Indiquez votre nom">
+                                <label for="name">nom</label>
+                                <input class="input_form" type ="text" name="name" id="name">
                             </div>
 
                             <div class="contact_form">
-                                <label for="email">email</label><br>
-                                <input type="email" name="email" id="email" placeholder="Indiquez votre email">
+                                <label for="email">email</label>
+                                <input class="input_form" type="email" name="email" id="email">
                             </div>
 
                         </div>
-
-                            <div>
-                                <label type="textarea" for="message">message</label>
-                            </div>
-
-                            <textarea placeholder="Ecrivez-nous votre message"></textarea>
-
-                            <div>
-                                <input class="cta" type="submit" value="Envoyez">
-                            </div>
+                            
+                            <label class="type_form" type="textarea" for="message">message</label>
+                            <textarea class="input_form"></textarea>    
+                            
+                        <div>
+                            <input class="cta" type="submit" value="Envoyez">   
+                        </div>                       
 
                 </form>
 
@@ -98,7 +96,7 @@
         <footer>
             <img src="images/logo.png" alt="logo Robbies Lens" title="Logo Robbie Lens">
 
-            <div>
+            <div class="social_media">
                 <img src="images/instagram.png" alt="logo instagram" title="logo instagram">
                 <img src="images/twitter.png" alt="logo twitter" title="logo instagram">
             </div>
