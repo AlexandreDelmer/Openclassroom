@@ -112,12 +112,25 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
     align-items: center;
     margin-top: 3%;
 }
-
+/*
 .img_last_project{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-gap: 1%;
+}
+*/
+
+.img_last_project{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    max-width: 66%;
+}
+
+.img_last_project img{
+    margin: 10px;
 }
 
 .last_project h2,
@@ -147,6 +160,7 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
 
 .information_form{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 2rem;
 }
@@ -163,7 +177,7 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
 
 .contact_form input{
     height: 2.5rem;
-    width: 13.5rem;
+    width: 100%;
 }
 
 .type_form{
