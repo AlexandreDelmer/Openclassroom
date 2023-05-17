@@ -5,9 +5,7 @@
 
 }
 
-
 /* Comment changer de police ?*/
-
 header, footer{
     padding: 20px 50px;
 }
@@ -91,11 +89,9 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
     border-radius: 50px; 
     background-color: #8E86B5;                 
     background: linear-gradient(to bottom, #8E86B5, 90%, #FFFFFF);
-    font-size: 1.0625rem;
-    height: 2rem;
-    line-height: 2rem;
-    width: 14em;
     text-decoration: none;
+    font-size: 1rem;
+    width: 50%
 }
 
 .solo_border{
@@ -129,7 +125,7 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
-    max-width: 66%;
+    max-width: 75%;
 }
 
 .img_last_project img{
