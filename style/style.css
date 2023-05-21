@@ -17,6 +17,7 @@ img{
 
 nav{
     display: flex;
+    justify-content: center;
     justify-content: space-between;
     align-items: center;
 }
@@ -27,7 +28,7 @@ nav ul{
 }
 
 nav li:not(:last-child) {
-  margin-right: 11rem;
+  margin-right: 2em;
 }
 
 nav a{
@@ -52,12 +53,13 @@ h1 {
 
 .presentation{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #1F2039;
     width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
-    position: relative;
+    
 }
 
 .info_presentation{
@@ -91,7 +93,8 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
     background: linear-gradient(to bottom, #8E86B5, 90%, #FFFFFF);
     text-decoration: none;
     font-size: 1rem;
-    width: 50%
+    width: fit-content;
+    padding: 1em;
 }
 
 .solo_border{
