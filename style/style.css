@@ -17,7 +17,6 @@ img{
 
 nav{
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
 }
@@ -27,8 +26,8 @@ nav ul{
     list-style-type: none;
 }
 
-nav li:not(:last-child) {
-  margin-right: 2em;
+nav li{
+    margin-right: 2em;
 }
 
 nav a{
