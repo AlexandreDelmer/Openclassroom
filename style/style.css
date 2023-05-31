@@ -19,15 +19,17 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.125rem;
 }
 
 nav ul{
     display: flex;  
     list-style-type: none;
+    justify-content: space-around;   
 }
 
-nav li{
-    margin-right: 2em;
+nav li:not(:last-child){
+    margin-right: 10em;
 }
 
 nav a{
@@ -178,7 +180,7 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
 
 .contact_form input{
     height: 2.5rem;
-    width: 100%;
+    width: fit-content;
 }
 
 .type_form{
@@ -190,6 +192,10 @@ form textarea{
     width: auto;
     height: 10rem;
     margin-bottom: 2rem;
+}
+
+form .cta{
+    width: 200px;
 }
 
 footer{
