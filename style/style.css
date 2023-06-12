@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 /* Comment changer de police ?*/
+
 header, footer{
     padding: 20px 50px;
 }
@@ -105,6 +105,7 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
     align-items: center;
     margin-top: 3%;
 }
+
 /*
 .img_last_project{
     display: grid;
@@ -119,7 +120,7 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
-    max-width: 75%;
+    max-width: 65%;
 }
 
 .img_last_project img{
@@ -170,7 +171,7 @@ Pourquoi sur mon input le texte est pas centrer verticalement*/
 
 .contact_form input{
     height: 2.5rem;
-    width: fit-content;
+    width: 16rem;
 }
 
 .type_form{

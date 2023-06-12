@@ -1,0 +1,12 @@
+main{
+    background-color: #1F2039;
+}
+
+.image__apropos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img__apropos img{
+    
+}
